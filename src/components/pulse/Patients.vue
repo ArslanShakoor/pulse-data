@@ -13,7 +13,7 @@ Vue.use(ClientTable);
 export default {
   data() {
     return {
-      columns: ['id', 'sex', 'risk_score', 'age'],
+      columns: ['id', 'risk_score', 'age', 'sex'],
       options: {
         filterByColumn: 'false',
         filterable: false,
