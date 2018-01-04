@@ -6,15 +6,15 @@
 
 ``` bash
 
-npm install
+1: npm install
 
 
 # db.json is part of folder
-json-server db.json --fks "_id" -p 3000
+2: json-server db.json --fks "_id" -p 3000
 
 
 # make sure it is not running on port 3000
-npm run dev
+3: npm run dev
 
 
 # build for production with minification
