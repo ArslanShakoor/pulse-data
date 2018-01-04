@@ -2,14 +2,20 @@
 
 > A Vue.js project
 
-## Build Setup
+## How to run
 
 ``` bash
-# install dependencies
+
 npm install
 
-# serve with hot reload at localhost:8080
+
+# db.json is part of folder
+json-server db.json --fks "_id" -p 3000
+
+
+# make sure it is not running on port 3000
 npm run dev
+
 
 # build for production with minification
 npm run build
