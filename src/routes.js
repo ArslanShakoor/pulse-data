@@ -1,3 +1,3 @@
-import Main from './components/pulse/main';
+import Main from './components/pulse/Main';
 
 export const routes = [{ path: '/', component: Main }];

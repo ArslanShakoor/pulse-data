@@ -8,15 +8,4 @@
 
 <script>
 import { mapActions } from 'vuex';
-export default {
-  methods: {
-    ...mapActions({
-      fetchData: 'initPatient'
-    })
-  },
-  created() {
-    console.log('xyz');
-    this.fetchData();
-  }
-};
 </script>
